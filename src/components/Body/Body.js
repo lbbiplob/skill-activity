@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import './Body.css'
 
 const Body = () => {
     const [activitys, setActivitys] = useState([]);
@@ -9,9 +10,9 @@ const Body = () => {
     .then(data=> setActivitys(data))
   },[])
     return (
-        <div>
+        <div className='body-container'>
             {
-                activitys.map(activity=> <Activity activity={activity}></Activity> )
+                activitys.map(activity=> <Activity key={activity.id} activity={activity}></Activity> )
             }
         </div>
     );

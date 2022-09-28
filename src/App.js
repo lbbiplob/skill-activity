@@ -2,6 +2,7 @@
 import './App.css';
 import logo from './images/logo.png'
 import Body from './components/Body/Body';
+import Summary from './components/Summary/Summary';
 function App() {
   return (
     <div className="App">
@@ -14,15 +15,12 @@ function App() {
         <div>
           <Body></Body>
         </div>
-
       </div>
-
-
-
-      <div>
-        <h1>Summery section </h1>
+      <div className='summary-container'>
+        <Summary></Summary>
       </div>
     </div>
+   
   );
 }
 
