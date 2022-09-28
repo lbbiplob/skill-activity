@@ -14,7 +14,8 @@ const Body = () => {
     .then(res => res.json())
     .then(data=> setActivitys(data))
   },[]);
-   const addTime = time  =>{
+    
+    const addTime = time  =>{
     setTime(time);
         
     };
@@ -30,7 +31,7 @@ const Body = () => {
             </div>
 
             <div className='summary-container'>
-                <Summary></Summary>
+                <Summary time={time}></Summary>
              </div> 
         </div>
         
