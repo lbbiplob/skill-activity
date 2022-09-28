@@ -1,0 +1,44 @@
+[
+  {
+    "id": "633460237d49155b4b5dc2e3",
+    "picture": "https://img.freepik.com/free-photo/cricketer-field-action_53876-63345.jpg?w=996&t=st=1664379673~exp=1664380273~hmac=6221e865d63fa7746c5a2b67ce54c082a94594b2956d14221ffa2e44ab65ad55",
+    "time": 21,
+    "name": "Hand-Eye Coordination",
+    "body": "This is a vital skill to learn for anyone who wants to succeed as a batsman."
+  },
+  {
+    "id": "63346023a39b5af32d32182b",
+    "picture": "https://www.itsonlycricket.com/wp-content/uploads/2021/10/10-Fundamental-Cricket-Skills-You-Should-Know.jpg?ezimgfmt=ng:webp/ngcb1",
+    "time": 29,
+    "name": "Concentration",
+    "body": "All players need to work on their concentration levels."
+  },
+  {
+    "id": "633460230e18c30512a585f1",
+    "picture": "https://images.newindianexpress.com/uploads/user/imagelibrary/2012/5/16/18/w600X300/SLIP.jpg?w=400&dpr=2.6",
+    "time": 27,
+    "name": "Reflexes",
+    "body": "Quick reflexes are important for batsmen but also for certain fielders, particularly wicket keepers and those who are standing in the slips."
+  },
+  {
+    "id": "63346023226f4de0883a424f",
+    "picture": "https://p.imgci.com/db/PICTURES/CMS/245400/245407.jpg",
+    "time": 32,
+    "name": "Spatial Perception",
+    "body": "This term relates to awareness of where the ball is coming from and where it’s likely to finish – either in a hitting zone as a batsman or in a catching arc if you are in the field."
+  },
+  {
+    "id": "6334602389dfefd096fead85",
+    "picture": "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/07/Pictures/_6e692106-6023-11ea-bcc0-e4d0c7a68e9a.jpg",
+    "time": 23,
+    "name": "Sprinting and Agility",
+    "body": "Batsmen need to be quick between the wickets while fielders also need that pace to chase down balls that are heading to the boundary."
+  },
+  {
+    "id": "6334602378dda9cf55a1eb0c",
+    "picture": "https://www.cricket.com.au/~/-/media/News/2018/03/05HughesNSW.ashx?w=1600",
+    "time": 24,
+    "name": "Balance",
+    "body": "Balance is important for a batsman as they need to be in a good position in order to transfer their weight through the ball."
+  }
+]
