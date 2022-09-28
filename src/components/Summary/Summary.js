@@ -10,7 +10,7 @@ const Summary = () => {
          
         <Player></Player>
         <BreakPoint></BreakPoint>
-        <Time name={'Exercise time'}></Time>
+        <Time name={'Exercise time'} ></Time>
         <Time name={'Break time'}></Time>
          
         </div>

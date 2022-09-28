@@ -1,9 +1,9 @@
 import React from 'react';
 import './Activity.css'
 
-const Activity = ({activity}) => {
+
+const Activity = ({activity , addTime}) => {
     const {body , name, picture, time} = activity;
-    console.log(activity);
     return (
         <div className='cart-container'>
             <img src={picture} alt="" />
@@ -12,7 +12,7 @@ const Activity = ({activity}) => {
                 <p>{body.slice(0,80)}...</p>
                 <p>Time: {time} min </p>
             </div>
-            <button className='cart-button'>Add to Cart </button>
+            <button onClick={()=>{addTime(time)}}  className='cart-button'>Add to Cart </button>
             
         </div>
     );

@@ -1,5 +1,29 @@
+.full-container {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+}
+.main-container{
+    background-color: #F6F0E7;
+    padding: 30px 20px 30px 50px;
+}
+
 .body-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+.header-section {
+    color: #DB1F48;
+    display: flex;
+    align-items: center;
+}
+
+.header-section img {
+    width: 35px;
+    height: 35px;
+}
+
+.summary-container {
+    background: #E5DDC8;
+    padding: 30px;
 }
