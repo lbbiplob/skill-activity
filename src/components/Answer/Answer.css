@@ -1,0 +1,15 @@
+.answer-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    background-color:#DB1F48;
+    padding: 20px;
+    
+}
+
+.answer{
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+
+}

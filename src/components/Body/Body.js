@@ -26,7 +26,7 @@ const Body = () => {
                 <div className='body-container'>
                     {
                     activitys.map(activity=> <Activity addTime={addTime} key={activity.id} activity={activity} ></Activity> )
-                }
+                    }
                 </div>
             </div>
 
