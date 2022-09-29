@@ -8,16 +8,16 @@ import './Body.css'
 
 const Body = () => {
     const [activitys, setActivitys] = useState([]);
-    const [time, setTime] = useState(0)
+    const [times, setTimes] = useState([])
     useEffect(()=>{
     fetch('fake.json')
     .then(res => res.json())
     .then(data=> setActivitys(data))
   },[]);
-    
     const addTime = time  =>{
-    setTime(time);
-        
+        const newTime = [...times, time]
+        setTimes(newTime);
+        // console.log(newTime);
     };
     return (
         <div className='full-container' >
@@ -31,7 +31,7 @@ const Body = () => {
             </div>
 
             <div className='summary-container'>
-                <Summary time={time}></Summary>
+                <Summary times={times}></Summary>
              </div> 
         </div>
         

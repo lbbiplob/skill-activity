@@ -1,14 +1,20 @@
 import React from 'react';
 import './BreakPoint.css'
 
-const BreakPoint = () => {
+const BreakPoint = ({click}) => {
+    const first = 20;
+    const second = 30;
+    const thard = 40;
+    const forth = 50;
+    const fiveth = 55;
+    ;
     return (
         <div className='breckpoint-container'>
-            <button className='break-btn'>20m</button>
-            <button className='break-btn'>30m</button>
-            <button className='break-btn'>40m</button>
-            <button className='break-btn'> 50m</button>
-            <button className='break-btn'>55m</button>
+            <button onClick={()=>click(first)} className='break-btn'>{first}m</button>
+            <button onClick={()=>click(second)} className='break-btn'>{second}m</button>
+            <button onClick={()=>click(thard)} className='break-btn'>{thard}m</button>
+            <button onClick={()=>click(forth)} className='break-btn'> {forth}m</button>
+            <button onClick={()=>click(fiveth)} className='break-btn'>{fiveth}m</button>
             
         </div>
     );
