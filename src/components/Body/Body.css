@@ -27,3 +27,49 @@
     background: #E5DDC8;
     padding: 30px;
 }
+
+@media screen and (max-width:992px) {
+    .full-container {
+            display: grid;
+            grid-template-columns: 4fr 2fr;
+        }
+
+        .body-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+}
+
+@media screen and (max-width:768px) {
+    .full-container {
+        display: grid;
+        grid-template-columns: 7fr 5fr;
+    }
+
+    .body-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:557px){
+
+    .full-container {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    
+        .body-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .summary-container {
+            padding: 70px
+    ;
+}
+
+}
