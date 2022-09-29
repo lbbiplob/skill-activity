@@ -4,6 +4,7 @@ import Player from '../Player/Player';
 import BreakPoint from '../BreakPoint/BreakPoint';
 import Time from '../Time/Time';
 import { getData, myDb } from '../MyDb/MyDb';
+import ActivityCompleted from '../ActivityCompleated/ActivityCompleted';
 
 const Summary = ({times}) => {
 
@@ -30,6 +31,7 @@ const Summary = ({times}) => {
         <BreakPoint click={clicked} ></BreakPoint>
         <Time name={'Exercise time'} time={totalTime}></Time>
         <Time name={'Break time'} time={breakTime} ></Time>
+        <ActivityCompleted></ActivityCompleted>
          
         </div>
     );
